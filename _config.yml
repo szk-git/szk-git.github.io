@@ -1,6 +1,6 @@
 title: Claude Skills Library
 description: Copy-paste Claude Code skills for every engineering domain
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 url: https://szk-git.github.io
 docs_dir: docs
 nav_sort: case_insensitive
