@@ -6,6 +6,8 @@ vendor/
 Gemfile.lock
 .bundle/
 node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 .DS_Store
 *.swp
 *.swo
