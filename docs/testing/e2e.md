@@ -36,3 +36,8 @@ curl -o .claude/skills/e2e/SKILL.md \
 - Add your E2E framework to `.claude/specs/tech-stack.md` (Playwright, Cypress, etc.)
 - Add your test environment URL pattern to `.claude/specs/testing-standards.md`
 - The skill will add `data-testid` attributes to source files — review those changes before committing
+
+## Related skills
+
+- [Integration Tests](/testing/integration) — complement E2E with faster service-level tests
+- [CI/CD](/devops/ci-cd) — add E2E test execution to your pipeline

@@ -36,3 +36,8 @@ curl -o .claude/skills/accessibility/SKILL.md \
 - Mention your target conformance level in the arguments if different from WCAG 2.2 AA
 - Add accessibility guidelines to `.claude/specs/coding-standards.md` for team-specific requirements
 - Run after `/component` to catch a11y issues introduced during implementation
+
+## Related skills
+
+- [Component](/frontend/component) — run after building to catch a11y issues early
+- [UX Review](/design/ux-review) — complement a11y audit with usability evaluation

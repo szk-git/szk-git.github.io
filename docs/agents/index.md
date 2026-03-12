@@ -9,6 +9,8 @@ description: Claude Code orchestration and planning agents — architect, multi-
 
 Orchestration and planning skills that coordinate multi-step workflows: system architecture, comprehensive reviews, and sprint planning.
 
+Agent skills orchestrate multi-step workflows rather than producing a single artifact. Use them for architectural planning, comprehensive multi-pass code reviews, and sprint breakdown. They coordinate multiple analysis passes and produce thorough, structured reports.
+
 | Skill | Invoke | Description |
 |-------|--------|-------------|
 | [Architect](architect.md) | `/architect` | System architecture design and ADR generation |

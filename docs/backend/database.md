@@ -36,3 +36,8 @@ curl -o .claude/skills/database/SKILL.md \
 - Add your ORM and database type to `.claude/specs/tech-stack.md` (e.g., "Prisma + PostgreSQL")
 - Pair with `/api-design` — design the data model first, then the API
 - For NoSQL, mention your document store in the arguments for appropriate advice
+
+## Related skills
+
+- [API Design](/backend/api-design) — design the API surface on top of the data model
+- [Performance](/backend/performance) — optimize slow queries and indexing strategy

@@ -36,3 +36,9 @@ curl -o .claude/skills/ci-cd/SKILL.md \
 - Add your CI platform to `.claude/specs/tech-stack.md` for the correct config format
 - Add your deployment targets to `.claude/specs/deployment.md` (staging, production, approval gates)
 - Pair with `/docker` to include container build and push steps
+
+## Related skills
+
+- [Docker](/devops/docker) — add container build steps to the pipeline
+- [Deploy](/devops/deploy) — automate deployment as the final pipeline stage
+- [E2E Tests](/testing/e2e) — include E2E test execution in CI

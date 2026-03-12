@@ -36,3 +36,8 @@ curl -o .claude/skills/performance/SKILL.md \
 - Mention your caching layer in `.claude/specs/tech-stack.md` (Redis, Memcached, in-process)
 - Describe your scale in the arguments (number of users, requests/second) for appropriate recommendations
 - Pair with `/database` for deeper query and index analysis
+
+## Related skills
+
+- [Database](/backend/database) — deep-dive into query and index optimization
+- [Docker](/devops/docker) — optimize container resource limits and caching

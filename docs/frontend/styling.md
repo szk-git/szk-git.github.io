@@ -36,3 +36,8 @@ curl -o .claude/skills/styling/SKILL.md \
 - Add your styling framework to `.claude/specs/tech-stack.md` (Tailwind, CSS Modules, etc.)
 - Include your token naming convention in `.claude/specs/coding-standards.md` for consistent output
 - Pair with `/design-system` if you need to generate tokens first
+
+## Related skills
+
+- [Component](/frontend/component) — build the component before applying styling
+- [Design System](/design/design-system) — generate or audit tokens before refactoring styles

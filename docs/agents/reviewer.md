@@ -36,3 +36,9 @@ curl -o .claude/skills/reviewer/SKILL.md \
 - Add your quality standards to `.claude/specs/coding-standards.md` for project-specific checks
 - Add security requirements to `.claude/specs/security-requirements.md` for compliance-aware review
 - Use this before major releases; use `/code-review` or `/pr-review` for routine reviews
+
+## Related skills
+
+- [Code Review](/qa/code-review) — lightweight review for routine changes
+- [PR Review](/qa/pr-review) — scoped review for individual pull requests
+- [Security Audit](/qa/security-audit) — dedicated deep-dive on security findings

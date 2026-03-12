@@ -36,3 +36,9 @@ curl -o .claude/skills/architect/SKILL.md \
 - Add your scale requirements and constraints to `.claude/specs/architecture.md`
 - Add your preferred tech stack to `.claude/specs/tech-stack.md` for stack-aware recommendations
 - Pair with `/sprint-planner` to break the architecture into implementable tickets
+
+## Related skills
+
+- [API Design](/backend/api-design) — detail the API surface after architecture is set
+- [Database](/backend/database) — design the data model for the architecture
+- [Sprint Planner](/agents/sprint-planner) — break the architecture into implementable tickets

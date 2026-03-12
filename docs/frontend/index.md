@@ -9,6 +9,8 @@ description: Claude Code skills for UI development — components, styling, and 
 
 Skills for UI development covering component design, styling patterns, and accessibility compliance.
 
+Use these skills when building user-facing interfaces. They handle component architecture, styling patterns (CSS Modules, Tailwind, styled-components), and WCAG accessibility compliance. Provide a `tech-stack.md` spec and the output adapts to React, Vue, Svelte, or your framework of choice.
+
 | Skill | Invoke | Description |
 |-------|--------|-------------|
 | [Component](component.md) | `/component` | UI component design and implementation |
