@@ -36,3 +36,8 @@ curl -o .claude/skills/auth/SKILL.md \
 - Specify your auth provider in `.claude/specs/tech-stack.md` (e.g., Auth0, Clerk, custom)
 - Add your permission model to `.claude/specs/architecture.md` for role-aware output
 - Pair with `/security-audit` for a comprehensive security review after implementing auth
+
+## Related skills
+
+- [API Design](/backend/api-design) — define which endpoints require authentication
+- [Security Audit](/qa/security-audit) — audit the auth implementation for vulnerabilities

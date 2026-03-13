@@ -36,3 +36,8 @@ curl -o .claude/skills/docker/SKILL.md \
 - Add your runtime and dependencies to `.claude/specs/tech-stack.md` for accurate base image selection
 - Add your deployment target to `.claude/specs/deployment.md` (e.g., AWS ECS, Fly.io, Kubernetes)
 - Pair with `/ci-cd` to add Docker build and push steps to your pipeline
+
+## Related skills
+
+- [CI/CD](/devops/ci-cd) — add container build and push steps to your pipeline
+- [Deploy](/devops/deploy) — generate deployment runbook for the containerized app

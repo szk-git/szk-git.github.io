@@ -27,77 +27,21 @@ done
 
 ## Spec Files
 
-### `tech-stack.md`
-Your languages, frameworks, libraries, and tools. This is the most impactful spec — all skills read it.
+| Spec | Purpose | Template |
+|------|---------|----------|
+| `tech-stack.md` | Languages, frameworks, libraries, and tools. **Most impactful — all skills read it.** | [View](https://github.com/szk-git/szk-git.github.io/blob/main/specs/tech-stack.md) |
+| `coding-standards.md` | Naming conventions, style rules, import patterns, error handling | [View](https://github.com/szk-git/szk-git.github.io/blob/main/specs/coding-standards.md) |
+| `architecture.md` | System overview, service boundaries, auth model, key ADRs | [View](https://github.com/szk-git/szk-git.github.io/blob/main/specs/architecture.md) |
+| `testing-standards.md` | Test frameworks, file locations, coverage targets, mocking strategy | [View](https://github.com/szk-git/szk-git.github.io/blob/main/specs/testing-standards.md) |
+| `security-requirements.md` | Compliance, data classification, auth policies, audit logging | [View](https://github.com/szk-git/szk-git.github.io/blob/main/specs/security-requirements.md) |
+| `deployment.md` | Hosting platform, environments, CI/CD platform, deploy strategy | [View](https://github.com/szk-git/szk-git.github.io/blob/main/specs/deployment.md) |
 
+To install a single spec:
+
+```bash
+curl -o .claude/specs/<spec-name>.md \
+  https://raw.githubusercontent.com/szk-git/szk-git.github.io/main/specs/<spec-name>.md
 ```
-curl -o .claude/specs/tech-stack.md \
-  https://raw.githubusercontent.com/szk-git/szk-git.github.io/main/specs/tech-stack.md
-```
-
-[View template](https://github.com/szk-git/szk-git.github.io/blob/main/specs/tech-stack.md)
-
----
-
-### `coding-standards.md`
-Naming conventions, style rules, import patterns, error handling, and PR standards.
-
-```
-curl -o .claude/specs/coding-standards.md \
-  https://raw.githubusercontent.com/szk-git/szk-git.github.io/main/specs/coding-standards.md
-```
-
-[View template](https://github.com/szk-git/szk-git.github.io/blob/main/specs/coding-standards.md)
-
----
-
-### `architecture.md`
-System overview, service boundaries, auth model, and key architectural decisions.
-
-```
-curl -o .claude/specs/architecture.md \
-  https://raw.githubusercontent.com/szk-git/szk-git.github.io/main/specs/architecture.md
-```
-
-[View template](https://github.com/szk-git/szk-git.github.io/blob/main/specs/architecture.md)
-
----
-
-### `testing-standards.md`
-Test frameworks, file locations, coverage targets, and mocking strategy.
-
-```
-curl -o .claude/specs/testing-standards.md \
-  https://raw.githubusercontent.com/szk-git/szk-git.github.io/main/specs/testing-standards.md
-```
-
-[View template](https://github.com/szk-git/szk-git.github.io/blob/main/specs/testing-standards.md)
-
----
-
-### `security-requirements.md`
-Compliance requirements, data classification, auth policies, and audit logging.
-
-```
-curl -o .claude/specs/security-requirements.md \
-  https://raw.githubusercontent.com/szk-git/szk-git.github.io/main/specs/security-requirements.md
-```
-
-[View template](https://github.com/szk-git/szk-git.github.io/blob/main/specs/security-requirements.md)
-
----
-
-### `deployment.md`
-Hosting platform, environments, CI/CD platform, and deployment strategy.
-
-```
-curl -o .claude/specs/deployment.md \
-  https://raw.githubusercontent.com/szk-git/szk-git.github.io/main/specs/deployment.md
-```
-
-[View template](https://github.com/szk-git/szk-git.github.io/blob/main/specs/deployment.md)
-
----
 
 ## Which Skills Use Which Specs
 

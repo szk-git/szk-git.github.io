@@ -36,3 +36,8 @@ curl -o .claude/skills/design-system/SKILL.md \
 - Add your token format to `.claude/specs/tech-stack.md` (CSS custom properties, Style Dictionary, Tailwind config)
 - Pair with `/styling` to apply the new tokens across existing components
 - Include brand palette in the arguments for color-specific token generation
+
+## Related skills
+
+- [Component](/frontend/component) — build components using the generated tokens
+- [Styling](/frontend/styling) — apply tokens consistently across existing components

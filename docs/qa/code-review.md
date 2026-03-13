@@ -36,3 +36,8 @@ curl -o .claude/skills/code-review/SKILL.md \
 - Add your coding standards to `.claude/specs/coding-standards.md` for project-specific style checks
 - Specify the review focus in arguments if needed (e.g., "focus on security and error handling")
 - Pair with `/security-audit` for dedicated security-focused review
+
+## Related skills
+
+- [PR Review](/qa/pr-review) — review a specific pull request with scope and intent analysis
+- [Security Audit](/qa/security-audit) — deep-dive into security vulnerabilities

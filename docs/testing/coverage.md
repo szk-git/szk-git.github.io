@@ -36,3 +36,9 @@ curl -o .claude/skills/coverage/SKILL.md \
 - Add your coverage targets to `.claude/specs/testing-standards.md` (e.g., "we target 80% branch coverage on business logic")
 - Specify which directories are highest priority in the arguments
 - Pair with `/unit-tests` or `/integration` to write the tests identified
+
+## Related skills
+
+- [Unit Tests](/testing/unit-tests) — generate tests for the gaps identified
+- [Integration Tests](/testing/integration) — cover service boundary gaps with integration tests
+- [E2E Tests](/testing/e2e) — cover user journey gaps with end-to-end tests

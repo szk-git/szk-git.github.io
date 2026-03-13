@@ -36,3 +36,8 @@ curl -o .claude/skills/pr-review/SKILL.md \
 - Add your PR standards to `.claude/specs/coding-standards.md` (e.g., "all PRs must include tests")
 - For GitHub repos, run `git diff main...feature-branch` first and paste the output
 - Pair with `/security-audit` for security-sensitive PRs
+
+## Related skills
+
+- [Code Review](/qa/code-review) — detailed code quality review for specific files
+- [Reviewer](/agents/reviewer) — comprehensive four-pass review for major changes

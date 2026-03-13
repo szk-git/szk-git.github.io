@@ -9,6 +9,8 @@ description: Claude Code skills for infrastructure — Docker, CI/CD pipelines, 
 
 Skills for infrastructure and deployment including Docker configuration, CI/CD pipelines, and deployment runbooks.
 
+Use these skills when containerizing applications, setting up CI/CD, or planning deployments. They read your `deployment.md` spec to target the right platform and produce production-ready configuration files and runbooks.
+
 | Skill | Invoke | Description |
 |-------|--------|-------------|
 | [Docker](docker.md) | `/docker` | Dockerfile and docker-compose generation |

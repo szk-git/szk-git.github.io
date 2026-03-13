@@ -36,3 +36,8 @@ curl -o .claude/skills/sprint-planner/SKILL.md \
 - Add your sprint length and team size to `.claude/specs/` for right-sized ticket estimates
 - Add your issue tracker format to `.claude/specs/coding-standards.md` (GitHub Issues labels, Jira fields)
 - Pair with `/architect` first for large epics to establish architecture before ticket breakdown
+
+## Related skills
+
+- [Architect](/agents/architect) — establish architecture before breaking into tickets
+- [Reviewer](/agents/reviewer) — review the implementation after sprint work is done

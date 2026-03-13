@@ -36,3 +36,9 @@ curl -o .claude/skills/deploy/SKILL.md \
 - Add your hosting platform to `.claude/specs/deployment.md` (AWS ECS, Fly.io, Heroku, Kubernetes, etc.)
 - Specify your risk tolerance in the arguments (e.g., "zero downtime required" or "brief maintenance window OK")
 - Pair with `/ci-cd` to automate the runbook steps in your pipeline
+
+## Related skills
+
+- [CI/CD](/devops/ci-cd) — automate the runbook steps in your pipeline
+- [Docker](/devops/docker) — containerize first, then plan deployment
+- [Architect](/agents/architect) — review architecture before major deployment changes

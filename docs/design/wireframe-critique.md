@@ -36,3 +36,8 @@ curl -o .claude/skills/wireframe-critique/SKILL.md \
 - Describe the wireframe in your arguments if it's not in a readable file (paste ASCII art or describe the layout)
 - Add your design system constraints to `.claude/specs/` for feasibility checks against existing components
 - Pair with `/ux-review` after building to catch issues in the implemented version
+
+## Related skills
+
+- [UX Review](/design/ux-review) — review the implemented version after building
+- [Design System](/design/design-system) — check feasibility against existing component specs

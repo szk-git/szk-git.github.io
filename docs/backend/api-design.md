@@ -37,3 +37,9 @@ curl -o .claude/skills/api-design/SKILL.md \
 - Pair with `/database` to design the data model before the API layer
 - Pair with `/auth` to define protected endpoints and permission checks
 - For GraphQL projects, mention "GraphQL" in your arguments
+
+## Related skills
+
+- [Database](/backend/database) — design the data model before the API layer
+- [Auth](/backend/auth) — define protected endpoints and permission checks
+- [Architect](/agents/architect) — plan overall system design before detailing APIs

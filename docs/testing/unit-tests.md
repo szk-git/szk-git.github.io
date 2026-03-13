@@ -36,3 +36,8 @@ curl -o .claude/skills/unit-tests/SKILL.md \
 - Add your test framework to `.claude/specs/tech-stack.md` for correct syntax (Jest, Vitest, pytest, Go test, etc.)
 - Add coverage requirements to `.claude/specs/testing-standards.md` to guide which paths to prioritize
 - Pair with `/coverage` to identify gaps in existing test suites
+
+## Related skills
+
+- [Integration Tests](/testing/integration) — cover wiring and service boundaries after unit logic
+- [Coverage](/testing/coverage) — find untested paths before writing new tests

@@ -36,3 +36,8 @@ curl -o .claude/skills/security-audit/SKILL.md \
 - Add your security requirements to `.claude/specs/security-requirements.md` for compliance-specific checks
 - Mention your threat model in the arguments (e.g., "external-facing API, multi-tenant")
 - Pair with `/auth` to fix auth vulnerabilities found in the audit
+
+## Related skills
+
+- [Auth](/backend/auth) — fix auth vulnerabilities found in the audit
+- [Code Review](/qa/code-review) — broader quality review beyond security

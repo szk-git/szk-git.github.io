@@ -9,6 +9,8 @@ description: Claude Code skills for UX/UI design — heuristic reviews, design s
 
 Skills for UX/UI design work including heuristic evaluations, design system generation, and wireframe analysis.
 
+Use these skills during design reviews, when establishing a design system, or when evaluating wireframes before implementation. They apply recognized UX heuristics and produce actionable tokens, specs, and critique.
+
 | Skill | Invoke | Description |
 |-------|--------|-------------|
 | [UX Review](ux-review.md) | `/ux-review` | Heuristic evaluation and UX recommendations |

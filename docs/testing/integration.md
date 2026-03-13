@@ -36,3 +36,8 @@ curl -o .claude/skills/integration/SKILL.md \
 - Add your database and test isolation strategy to `.claude/specs/testing-standards.md`
 - Specify your test database setup in the arguments (e.g., "we use SQLite for tests")
 - Pair with `/unit-tests` — unit tests cover logic, integration tests cover wiring
+
+## Related skills
+
+- [Unit Tests](/testing/unit-tests) — unit tests cover logic, integration tests cover wiring
+- [E2E Tests](/testing/e2e) — add browser-level tests for critical user journeys

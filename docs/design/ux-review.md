@@ -36,3 +36,8 @@ curl -o .claude/skills/ux-review/SKILL.md \
 - Add your target user persona to the arguments for persona-specific evaluation
 - Add brand/UX guidelines to `.claude/specs/` for context-aware feedback
 - Pair with `/wireframe-critique` for designs that haven't been built yet
+
+## Related skills
+
+- [Accessibility](/frontend/accessibility) — audit implementation for WCAG compliance
+- [Wireframe Critique](/design/wireframe-critique) — review designs before they are built

@@ -36,3 +36,9 @@ curl -o .claude/skills/component/SKILL.md \
 - Add your component framework to `.claude/specs/tech-stack.md` (React, Vue, Svelte, etc.)
 - Add your design system to `.claude/specs/tech-stack.md` for consistent token usage
 - Pair with `/styling` for design token application and `/accessibility` for a11y audit after building
+
+## Related skills
+
+- [Styling](/frontend/styling) — apply design tokens and responsive patterns to the component
+- [Accessibility](/frontend/accessibility) — audit the component for keyboard and screen reader support
+- [Design System](/design/design-system) — generate tokens and specs before building

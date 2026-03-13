@@ -102,6 +102,45 @@ After installing, edit `.claude/skills/<name>/SKILL.md` directly to tailor it to
 - Add project-specific output paths
 - Append your coding standards
 
+## Troubleshooting
+
+### Skill not showing up in Claude Code
+
+- Confirm the file is at `.claude/skills/<name>/SKILL.md` — the filename must be exactly `SKILL.md`
+- Make sure you are in the project root that contains the `.claude/` directory
+- Restart your Claude Code session — skills are discovered on startup
+
+### Permission denied during curl
+
+- Check that you have write access to the target directory
+- On macOS/Linux, make sure the `.claude/` directory exists first (`mkdir -p .claude/skills/<name>`)
+
+### Skill gives generic output
+
+- Add a `.claude/specs/tech-stack.md` file — this is the single biggest quality improvement
+- See [Team Specs](/specs) for the full list of context files
+- Include more detail in your arguments (see [Best Practices](/best-practices))
+
+### Updates not taking effect
+
+- Claude Code caches skill files per session — start a new session after updating a `SKILL.md`
+
+## Uninstall a Skill
+
+Delete the skill directory:
+
+```bash
+rm -rf .claude/skills/api-design
+```
+
+To remove all skills:
+
+```bash
+rm -rf .claude/skills
+```
+
+Spec files in `.claude/specs/` are separate and not affected.
+
 ## Browse All Skills
 
 Use the sidebar to explore skills by category, or see the full list in the [README](https://github.com/szk-git/szk-git.github.io).

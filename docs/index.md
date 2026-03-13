@@ -1,19 +1,41 @@
 ---
-layout: doc
+layout: home
+
+hero:
+  name: Claude Skills Library
+  text: Reusable prompts for every engineering domain
+  tagline: 21 copy-paste skills that adapt to your team's tech stack, standards, and conventions via spec files.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /how-to-install
+    - theme: alt
+      text: Browse Skills
+      link: /backend/
+
+features:
+  - title: Backend
+    details: API design, database schemas, auth flows, and performance optimization.
+    link: /backend/
+  - title: Frontend
+    details: Component architecture, styling patterns, and WCAG accessibility audits.
+    link: /frontend/
+  - title: Testing
+    details: Unit, integration, E2E test generation and coverage gap analysis.
+    link: /testing/
+  - title: Design
+    details: UX heuristic reviews, design system tokens, and wireframe critique.
+    link: /design/
+  - title: QA
+    details: Structured code review, PR review, and OWASP security audits.
+    link: /qa/
+  - title: DevOps
+    details: Docker configs, CI/CD pipelines, and deployment runbooks.
+    link: /devops/
+  - title: Agents
+    details: Multi-step architect, four-pass reviewer, and sprint planner.
+    link: /agents/
+  - title: Team Specs
+    details: Context files that make every skill match your stack and conventions.
+    link: /specs
 ---
-
-# Claude Skills Library
-
-A personal collection of reusable Claude Code skills organized by engineering domain.
-
-Each skill is a prompt file that lives in `.claude/skills/` and is invoked with a slash command. Skills read from `.claude/specs/` to pick up context about your tech stack and team standards before generating output.
-
-## What's in here
-
-- **21 skills** across Backend, Frontend, Testing, Design, QA, DevOps, and Agents
-- **Spec templates** for defining your stack, coding standards, and deployment setup
-- **Install guide** explaining how to drop skills into any project
-
-## How to use it
-
-See [How to Install](/how-to-install) to get started, or browse the sidebar to find a skill.

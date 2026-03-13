@@ -9,6 +9,8 @@ description: Claude Code skills for server-side development — APIs, databases,
 
 Skills for server-side development across APIs, databases, authentication, and performance optimization.
 
+Use these skills when building or evolving server-side systems. They cover the full lifecycle from API surface design through data modeling, authentication, and runtime optimization. Each skill reads your `tech-stack.md` spec so output matches your framework — Express, Fastify, Django, Rails, Spring Boot, or anything else.
+
 | Skill | Invoke | Description |
 |-------|--------|-------------|
 | [API Design](api-design.md) | `/api-design` | REST/GraphQL API design with OpenAPI spec |

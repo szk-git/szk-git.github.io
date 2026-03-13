@@ -9,6 +9,8 @@ description: Claude Code skills for code quality — code review, PR review, and
 
 Skills for code quality and security including thorough code reviews, PR analysis, and OWASP security audits.
 
+Use these skills as a second pair of eyes on code quality and security. They perform structured reviews against your `coding-standards.md` and `security-requirements.md` specs, producing severity-rated findings with fix suggestions. Use `/code-review` for routine checks and `/reviewer` (in Agents) for comprehensive pre-release reviews.
+
 | Skill | Invoke | Description |
 |-------|--------|-------------|
 | [Code Review](code-review.md) | `/code-review` | Thorough code quality and style review |

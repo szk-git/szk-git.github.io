@@ -8,6 +8,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Install', link: '/how-to-install' },
+      { text: 'Best Practices', link: '/best-practices' },
       { text: 'Team Specs', link: '/specs' },
       {
         icon: 'github',
@@ -20,6 +21,7 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'How to Install', link: '/how-to-install' },
+          { text: 'Best Practices', link: '/best-practices' },
           { text: 'Team Specs', link: '/specs' }
         ]
       },
